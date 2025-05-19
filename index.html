@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>proyecto Thoth</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+    border-radius: 4px;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #007acc;
+  }
+  
+  section p, section li {
+    font-size: 1.1rem;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input, textarea, button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f99;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    color: #ccc;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    section {
+      padding: 2rem 1rem;
+    }
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="secreto.png"> <img src="logo.png" alt="logo chingon" style="width: 100%; max-width: 100px;"></a>
+    <h1>Thoth</h1>
+    <nav>
+      <ul>
+        <li><a href= thoth.html >Inicio</a></li>
+        <li><a href="#Que es">Que es</a></li>
+        <li><a href="#Como funciona">Cómo funciona</a></li>
+        <li><a href="#objectivos">objectivos</a></li>
+        <li><a href="#Beneficios">Beneficios</a></li>
+        <li><a href="#Metodologia">Metodologia</a></li>
+        <li><a href="#informacion">informacion</a></li>
+        <li><a href="#Creadores">Creadores</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <p></p>
+
+  <section id="Inicio">
+    <h2>Tecnología que guía, libertad que inspira e informacion que nos salvara.</h2>
+  </section>
+
+  <section id="Que es">
+    <h2>  Que somos y Que queremos </h2>
+    <p> Somos un equipo que cree en que el conocimiento debe estar al alcance de todos, pues todos los avances historicos de la humanidad son gracias a nuestros conocimientos compartidos a travez de la historia y nuestro equipo tiene el objetivo de darle un lugar a todas esas personas que estan interesadas en el conocimiento de la humanidad, un lugar donde el conocimiento fluya con total libertad. </p>
+  </section>
+  
+  <section id="Como funciona">
+    <h2>¿Cómo funciona?</h2>
+    <ul>
+      <li>Por ahora se subira contenido sobre divulgacion cientifica y cultural, como una medida para combatir la desinformacion pero el objetivo es que cualquier interesado sobre estos temas puedan subir y debatir libremente.</li>
+      
+    </ul>
+  </section>
+
+  <section id="informacion">
+    <h2>Justificación</h2>
+    <ul>
+      <li>El conocimiento compartido ha sido el motor del progreso humano a lo largo de la historia. Buscamos crear un espacio donde todas las mentes curiosas puedan acceder, contribuir y beneficiar del saber colectivo, eliminando barreras y fomentando un flujo libre de ideas que impulse nuevos descubrimientos y entendimientos para todos.</li>
+      
+    </ul>
+  </section>
+  
+  <section id="objectivos">
+    <h2>Objetivo General</h2>
+    <ul>
+      <li>Desarrollar e implementar una plataforma colaborativa digital,
+denominada "Thoth", que facilite el acceso libre y la difusión del conocimiento humano
+a una amplia audiencia de interesados.</li>
+
+    </ul>
+  </section>
+
+  <section id="objectivos">
+    <h2>Objetivos Específicos</h2>
+    <ul>
+      
+     <li>1. Fomentar la participación activa de la comunidad en la construcción del contenido </li>
+     <li>2. Desarrollar una plataforma digital intuitiva para el acceso y la gestión del conocimiento</li>
+     <li>3. Diseñar una interfaz intuitiva y accesible</li>
+     
+    </ul>
+  </section>
+
+  <section id="Metodologia">
+    <h2>Metodologia</h2>
+    <ul>
+      <li>La metodología que se usará será la de SCRUM, ya que esta apoya en gran medida la idea principal del proyecto, que consiste en una cooperación entre usuarios al intentar encontrar más información sobre diversos temas y, al mismo tiempo, poder dialogar entre ellos. Por parte de los programadores, se utilizarán los sprints, en los cuales se añadirá información a la web en un lapso de 1 a 4 semanas, siendo el tiempo ideal de actualización cada 2 semanas.</li>
+
+    </ul>
+  </section>
+
+  <section id="Informacion">
+    <h2>Cronograma de actividades </h2>
+    <ul>
+         <li>Este será nuestro cronograma de actividades, basado en que nuestra carrera tendrá una duración aproximada de cinco años. A lo largo de los años o meses, este cronograma puede cambiar debido a diversos factores.</li>
+    </ul>
+      <a href="Cronograma-de-activivades.png"> <h1>Conograma</h1></a>
+  <img src="Cronograma-de-activivades.png" alt="logo chingon" style="width: 100%; max-width: 400px;">
+  
+</section>
+
+  <section id="Beneficios">
+    <h2>Beneficios</h2>
+    <ul>
+      <li>Facilidad a la hora de encontrar informacion</li>
+      <li>Informacion libre y trasparente</li>
+      <li>Facilidad de divulgacion para los creadores de contenido.</li>
+      
+    </ul>
+  </section>
+  
+  <section id="Creadores">
+
+  <a href="Samuel2.png"> <h1>Samuel Andres Valencia Martinez</h1></a>
+  <img src="Samuel2.png" alt="logo chingon" style="width: 100%; max-width: 400px;">
+
+  <a href="puto.png"> <h1>Santiago Serrano Zuleta</h1></a>
+  <img src="puto.png" alt="puto png" style="width: 100%; max-width: 400px;">
+  
+    </section>
+
+  <section id="Contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Gracias por visitarnos :>   </p>
+  </footer>
+
+</body>
+</html>
